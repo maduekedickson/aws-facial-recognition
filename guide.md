@@ -1442,3 +1442,16 @@ Complete Face Verification Application
 ```
 
 This project can later be extended into an employee attendance system by adding attendance records, check-in/check-out functionality, dashboards and reporting.
+
+
+delete amazon rekognition
+//list collection
+aws rekognition list-collections
+
+//list faces
+aws rekognition list-faces --collection-id your-collection-id
+
+
+//delete collection
+aws rekognition delete-collection \
+    --collection-id riteclick-employees
