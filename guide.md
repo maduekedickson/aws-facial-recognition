@@ -1449,10 +1449,11 @@ This project can later be extended into an employee attendance system by adding 
 List all faces inside employee-faces
 
 aws rekognition list-faces \
-  --collection-id employee-faces
+    --collection-id employee-faces
 
 
 //delete collection aws rekognition delete-collection
 
-aws rekognition delete-collection 
-  --collection-id employee-faces
+aws rekognition delete-collection
+
+    --collection-id employee-faces
