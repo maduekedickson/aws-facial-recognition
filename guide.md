@@ -1443,17 +1443,16 @@ Complete Face Verification Application
 
 This project can later be extended into an employee attendance system by adding attendance records, check-in/check-out functionality, dashboards and reporting.
 
+# PART 25 -- Delete AWS rekognition
+
+
+List all faces inside employee-faces
+
+aws rekognition list-faces \
+  --collection-id employee-faces
+
 
 //delete collection aws rekognition delete-collection
 
-aws rekognition delete-collection --collection-id employee-faces
-
-//list faces
-
-aws rekognition list-faces --collection-id your-collection-id
-
-
-//delete collection
-
-aws rekognition delete-collection \
-    --collection-id employee-faces
+aws rekognition delete-collection 
+  --collection-id employee-faces
