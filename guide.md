@@ -1445,12 +1445,15 @@ This project can later be extended into an employee attendance system by adding 
 
 
 //delete collection aws rekognition delete-collection
+
 aws rekognition delete-collection --collection-id employee-faces
 
 //list faces
+
 aws rekognition list-faces --collection-id your-collection-id
 
 
 //delete collection
+
 aws rekognition delete-collection \
     --collection-id employee-faces
