@@ -1445,15 +1445,19 @@ This project can later be extended into an employee attendance system by adding 
 
 # PART 25 -- Delete AWS rekognition
 
-
 List all faces inside employee-faces
 
+```bash
 aws rekognition list-faces \
     --collection-id employee-faces
+```
 
 
 //delete collection aws rekognition delete-collection
 
-aws rekognition delete-collection
-
+```bash
+aws rekognition delete-collection \
     --collection-id employee-faces
+```
+
+
