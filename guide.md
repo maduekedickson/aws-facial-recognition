@@ -1453,4 +1453,4 @@ aws rekognition list-faces --collection-id your-collection-id
 
 //delete collection
 aws rekognition delete-collection \
-    --collection-id riteclick-employees
+    --collection-id employee-faces
